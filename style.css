@@ -131,8 +131,8 @@ table {
 }
 .car {
   position: absolute;
-  left: 50%;
-  bottom: 10px;
+  /* left: 50%;
+  bottom: 10px; */
   transform: translateX(-50%);
   width: 50px;
   height: 100px;
@@ -146,6 +146,18 @@ table {
   height: 100px;
 }
 .start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+  z-index: 200;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: serif;
+  background: #6b6363;
   cursor: pointer;
 }
 
@@ -164,4 +176,20 @@ table {
   height: 50px;
   left: 145px;
   background: #fff;
+}
+
+.score {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  z-index: 200;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: serif;
+  background: #6cced5;
+  cursor: pointer;
 }
